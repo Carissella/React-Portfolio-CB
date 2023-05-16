@@ -1,14 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faHome,
-  faUser,
-  faFolderOpen,
-  faEnvelope,
-  faFileAlt,
-  faBars,
-} from "@fortawesome/free-solid-svg-icons";
 import "../assets/css/navbar.css";
 
 function Navbar() {

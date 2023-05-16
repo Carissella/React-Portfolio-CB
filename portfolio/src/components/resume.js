@@ -8,10 +8,18 @@ function Resume() {
         <li>HTML5</li>
         <li>CSS3</li>
         <li>JavaScript</li>
+        <li>JQuery</li>
+        <li>Bootstrap</li>
         <li>Node.js</li>
         <li>Express.js</li>
+        <li>SQL</li>
+        <li>Mysql</li>
         <li>React</li>
         <li>MongoDB</li>
+        <li>Github</li>
+        <li>Heroku</li>
+        <li>OOP</li>
+        <li>PWAs</li>
       </ul>
 
       <h2 className="resumeTitle">Certifications</h2>
