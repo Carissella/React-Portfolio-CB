@@ -6,11 +6,11 @@ import {
   Outlet,
   Routes,
 } from "react-router-dom";
-import AboutMe from "./components/about";
-import ContactMe from "./components/contact";
+import About from "./components/about";
 import Home from "./components/home";
-import Navbar from "./components/navbar";
+import Contact from "./components/contact";
 import Projects from "./components/projects";
+import Navbar from "./components/navbar";
 import Resume from "./components/resume";
 import "./App.css";
 
@@ -23,14 +23,15 @@ function App() {
         <main className="content">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/aboutMe" element={<AboutMe/>} />
-            <Route path="/resume" element={<Resume />} />
+            <Route path="/about" element={<About />} />
             <Route path="/projects" element={<Projects />} />
-            <Route path="/contactMe" element={<ContactMe />} />
+            <Route path="/resume" element={<Resume />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </main>
       </div>
     </Router>
   );
 }
+
 export default App;
