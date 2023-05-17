@@ -1,0 +1,63 @@
+.resume-container {
+    text-align: center;
+    color: white;
+    padding: 7rem;
+  }
+  
+  .resumeTitle {
+    font-family: 'Castoro Titling', cursive;
+    margin-bottom: 1rem; 
+  }
+  
+  .skillset-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .skillset-list li {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid #f9f1f1;
+    border-radius: 5px;
+    color: white;
+    list-style: none;
+  }
+  
+  .download-button {
+    padding: 1;
+    font-size: 12px;
+    background-color: #a9ff1f;
+    color: rgb(61, 125, 197);
+    border: 3px solid;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-out;
+    margin-top: 50px;
+  }
+  
+  .download-butt:hover {
+    background-color: rgba(243, 27, 203, 0.9);
+  }
+  
+  @media screen and (max-width: 768px) {
+    .skills-list {
+      flex-wrap: nowrap; 
+      flex-direction: column; 
+    }
+    
+    .skillset-list li {
+      width: 100%; 
+      box-sizing: border-box; 
+      text-decoration: none;
+    }
+  
+    .resumeTitle {
+      display: flex;
+      justify-content: center;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      
+    }
+  }

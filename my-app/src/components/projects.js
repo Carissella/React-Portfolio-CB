@@ -1,4 +1,5 @@
 import React from "react";
+import "../assets/css/projects.css";
 
 function Projects() {
   const projects = [

@@ -29,33 +29,27 @@ function Navbar() {
     {
       path: "/",
       label: "Home",
-      icon: faHome,
     },
     {
       path: "/aboutMe",
       label: "About Me",
-      icon: faUser,
     },
     {
       path: "/projects",
       label: "Projects",
-      icon: faFolderOpen,
     },
     {
       path: "/resume",
       label: "Resume",
-      icon: faFileAlt,
     },
     {
       path: "/contactMe",
       label: "Contact Me",
-      icon: faEnvelope,
     },
   ];
 
   return (
     <nav className="navbar">
-      <div className="mm-link">M.M.</div>
       <button onClick={toggleNavbar} className="navbar-toggle">
       </button>
       <ul className={`nav-links ${isCollapsed ? "collapsed" : ""}`}>

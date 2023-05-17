@@ -1,0 +1,92 @@
+ .navbar ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 70px;
+  }
+  
+  .navbar {
+    height: 100vh;
+    padding: 5rem;
+    opacity: 0.7;
+    display: inline;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+  .nav-link {
+    text-decoration: none;
+    color: white;
+    font-family: 'Castoro Titling', cursive;
+    display: flex;
+    align-items: center;
+  }
+  .navbar ul {
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-top: 0;
+    }
+
+  
+ 
+  
+  .navbar li {
+    margin-bottom: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  
+  
+  .nav-link:hover {
+    color: rgba(255, 20, 130, 0.9)
+  }
+  
+  
+  .navbar .nav-links.collapsed {
+    display: none;
+  }
+  
+  
+  .navbar-toggle {
+    display: none;
+    color: white;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5rem;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .navbar {
+      height: auto;
+      width: 100%;
+      padding: 1rem;
+    }
+  
+    
+  
+    .navbar li {
+      margin-left: 1rem;
+      margin-bottom: 0;
+    }
+  
+    .navbar-toggle {
+      display: block;
+    }
+  
+    .nav-links.collapsed {
+      display: none;
+    }
+  
+  
+    .nav-links {
+      display: flex;
+      flex-direction: column;
+      font-size: 10px;
+     
+    }
+  }
