@@ -1,4 +1,6 @@
 import React from "react";
+import "../assets/css/aboutme.css";
+import "../assets/images/IMG_6742.jpg";
 
 function AboutMePage() {
   return (

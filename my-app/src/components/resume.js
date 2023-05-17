@@ -1,10 +1,12 @@
 import React from "react";
+import "../assets/css/resume.css";
+import resume from "../assets/images/resume.pdf"
 
 function Resume() {
   return (
     <div className="resume-container">
       <h2 className="resume-title">My Skills</h2>
-      <ul className="skills">
+      <ul className="skillset-list">
         <li>HTML5</li>
         <li>CSS3</li>
         <li>JavaScript</li>
@@ -22,12 +24,11 @@ function Resume() {
         <li>PWAs</li>
       </ul>
 
-      <h2 className="resumeTitle">Certifications</h2>
       <p>
-        Full Stack Web Development Certificate from The University of Minnesota
+        Feel free to download my resume while you're here 
       </p>
       <a href={resume} >
-        <button className="download-butt">Download My Resume</button>
+        <button className="download-butt">Carisse's Resume</button>
       </a>
     </div>
   );

@@ -1,0 +1,51 @@
+.home-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: calc(100vh - 60px);
+    padding-right: 50px;
+    color: rgb(61, 9, 9);
+    font-family: l;
+  }
+  .title {
+    text-align: left;
+    font-family: l;
+    font-size: 3em;
+  }
+  
+  .profile-photo {
+    border-radius: 50%;
+    border: solid white;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    margin-right: 3rem;
+  }
+  .home-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .home-container {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      padding: 0;
+    }
+  
+    .title {
+      font-size: 1.5em;
+    }
+  
+    .profile-photo {
+      width: 200px;
+      height: 200px;
+      display: block;
+      margin: auto;
+    }
+  
+  
+  }
